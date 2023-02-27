@@ -1,0 +1,35 @@
+:root{
+    /* Color styles */
+--dark-gray: #2C3E50;
+--aqua: #1ABC9C;
+--white: #FFFFFF;
+--light-gray: #3A546D;
+--black: #333333;
+
+}
+
+body{
+    color: var(--white);
+}
+
+
+header{
+    background-color: var(--dark-gray);
+}
+
+#hero, #about{
+    background-color: var(--aqua);
+}
+
+#portfolio, #contact{
+    color: black;
+    background-color: var(--white);
+}
+
+#ft{
+    background-color: var(--light-gray);
+    }
+
+    #fb{
+        background-color: var(--dark-gray);
+    }
