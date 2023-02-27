@@ -8,6 +8,8 @@
 
 }
 
+/*<i class="fa-solid fa-star"></i>*/
+
 body {
     color: var(--white);
 }
@@ -41,3 +43,21 @@ header {
     background-color: var(--dark-gray);
 }
 
+.gi-box{
+    width: 300px;
+}
+
+.gi-line{
+    border: 1px solid var(--white);
+}
+
+hr{
+    opacity: 1;
+}
+
+.star{
+    width: 100px;
+}
+.hr-star{
+    width: 200px;
+}
