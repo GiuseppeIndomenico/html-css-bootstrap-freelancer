@@ -57,7 +57,14 @@ hr{
 
 .star{
     width: 75px;
+
 }
 .hr-star{
     width: 200px;
 }
+
+.gi-dark{
+    color: var(--dark-gray);
+}
+
+.gi-black{color: var(--black);}
