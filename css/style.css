@@ -96,7 +96,7 @@ hr{
     font-size: 56px;
     background-color: var(--aqua);
     opacity: 0;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .img-container:hover:after{
