@@ -40,55 +40,58 @@ header nav {
     background-color: var(--dark-gray);
 }
 
-.gi-box{
+.gi-box {
     width: 300px;
 }
 
-.gi-line{
+.gi-line {
     border: 1px solid var(--white);
 }
 
-hr{
+hr {
     opacity: 1;
 }
 
-.star{
+.star {
     width: 75px;
 
 }
-.hr-star{
+
+.hr-star {
     width: 200px;
 }
 
-.gi-dark{
+.gi-dark {
     color: var(--dark-gray);
 }
 
-.gi-black{color: var(--black);}
+.gi-black {
+    color: var(--black);
+}
 
-.gi-circle{
+.gi-circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 1px solid var(--white);
 }
 
-.gi-green{
+.gi-green {
     color: var(--aqua);
 }
 
-.img-container{
+.img-container {
     position: relative;
 }
 
-.img-container:after{
+.img-container:after {
     content: "+";
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0px;
-    right:0px;
+    right: 0px;
     left: 0px;
     bottom: 0px;
     color: var(--white);
@@ -98,10 +101,10 @@ hr{
     transition: all .5s;
 }
 
-.img-container:hover:after{
+.img-container:hover:after {
     opacity: 0.8;
 }
 
-::placeholder{
+::placeholder {
     font-weight: 700;
 }
