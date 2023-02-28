@@ -17,7 +17,6 @@ a {
     text-decoration: none;
 }
 
-
 header nav {
     background-color: var(--dark-gray);
 }
@@ -101,4 +100,8 @@ hr{
 
 .img-container:hover:after{
     opacity: 0.8;
+}
+
+::placeholder{
+    font-weight: 700;
 }
