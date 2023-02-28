@@ -8,14 +8,6 @@
 
 }
 
-/*<i class="fa-solid fa-star"></i>
-
-<i class="fa-brands fa-facebook-f"></i>
-<i class="fa-brands fa-google-plus-g"></i>
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-linkedin-in"></i>
-*/
-
 body {
     color: var(--white);
 }
@@ -26,7 +18,7 @@ a {
 }
 
 
-header {
+header nav {
     background-color: var(--dark-gray);
 }
 
@@ -84,4 +76,24 @@ hr{
 
 .gi-green{
     color: var(--aqua);
+}
+
+.img-container:after{
+    content: "+";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    color: var(--white);
+    font-size: 56px;
+    background-color: var(--aqua);
+    opacity: 0;
+}
+
+.img-container:hover:after{
+    opacity: 0.7;
 }
